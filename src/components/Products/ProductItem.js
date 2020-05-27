@@ -7,7 +7,7 @@ import { toggleFav } from '../../store/actions/products';
 
 
 const ProductItem = props => {
-    const dispatch = useStore()[1];
+    const dispatch = useStore(false)[1];
 
 
   const toggleFavHandler = () => {
